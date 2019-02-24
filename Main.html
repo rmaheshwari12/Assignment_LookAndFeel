@@ -2,34 +2,69 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="header">
+        <img src="muma.jpeg" alt="muma-image" width="150" height="100">
+    </div>
 
-<div class="header">
- 
-  <img src="muma.jpeg" alt="Italian Trulli" width="300" height="200">
-</div> 
+    <div class="p">
+        <h2>E-portfolio for ISM6225 - Distributed Information Systems</h2>
+    </div>
 
-<div class="p">
- <p> ISM6225 - Distributed Information Systems - E-portfolio   </p>
-</div> 
+    <div class="topnav">
+        <a href="Main.html">Home</a>
+        <a href="course.html">Course Information</a>
+        <a href="Final1.html">Student eProfile</a>
+        <a href="faculty.html">Faculty eProfile</a>
+        <a href="https://github.com/rmaheshwari12/Assignment_LookAndFeel">GitHub</a>
+        <a href="course.html">About Project</a>
+    </div>
 
+    <div class="row">
+        <div class="column">
+            <img src="ep1.jpg" alt="eprofile-image" width="300" height="200">
+            <p> <b>Build an e-portfolio to create an excellent first impression</b> </p>
+        </div>
 
-<div class="topnav">
-<a href="course.html">Course Information</a>
-  <a href="#">GitHub</a>
-  <a href="Final1.html">Student information</a>
-  <a href="faculty.html">Faculty information</a>
-  
-</div>
+        <div class="column">
+            <h2><ins>E-PORTFOLIO</ins></h2>
+            <br> It is a way to include thoughful refections and relevant artifacts that showcases student's learning to audiences outside the university.
+            <p><b>Why is an e-portfolio important?</b></p>
+            <ul>
+                <li> It is more than a resume. Creates a positive impression.</li>
+                <li> Builds website development skill.</li>
+                <li> Can be accessed from anywhere.</li>
+                <li> Let's accept it, it looks so much cool!</li>
+            </ul>
+        </div>
 
-
-  
-</div>
-
+        <div class="column">
+            <video width="320" height="240" controls>
+                <source src="E-portfolioVideo.mp4">
+            </video>
+        </div>
+    </div>
 </body>
+
 </html>
 
 

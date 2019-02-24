@@ -2,64 +2,59 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<style>
-* {
-  box-sizing: border-box;
-}
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="header">
+        <img src="muma.jpeg" alt="Muma-image" width="150" height="100">
+    </div>
 
-<div class="header">
- 
-  <img src="muma.jpeg" alt="Italian Trulli" width="300" height="200">
-</div> 
+    <div class="p">
+        <p>Resize the browser window to see the responsive effect.</p>
+    </div>
+    <div class="topnav">
+        <a href="Main.html">Home</a>
+        <a href="course.html">Course Information</a>
+        <a href="Final1.html">Student eProfile</a>
+        <a href="faculty.html">Faculty eProfile</a>
+        <a href="https://github.com/rmaheshwari12/Assignment_LookAndFeel">GitHub</a>
+        <a href="course.html">About Project</a>
+    </div>
 
-<div class="p">
- <p> Student E-portfolio </p>
-</div> 
+    <div class="row">
+        <div class="column">
+            <img src="anu.jpeg" alt="Anuradha-image" width="300" height="200">
+            <h2><a href="Anuradha.html">Anuradha Jain</a></h2>
+        </div>
 
+        <div class="column">
+            <img src="rush1.jpeg" alt="Rushikesh-image" width="300" height="200">
+            <h2><a href="Rushi.html">Rushikesh Maheshwari</a></h2>
+        </div>
 
-<div class="topnav">
-<a href="course.html">Course Information</a>
-  <a href="Final1.html">Student information</a>
-  <a href="faculty.html">Faculty information</a>
-  <a href="#">GitHub</a>
-  
-</div>
-
-<div class="row">
-  <div class="column">
-	<img src="anu.jpeg" alt="Italian Trulli" width="300" height="200">
-	<h2><a href="Anuradha.html">Anuradha</a></h2>
-  </div>
-  
-  <div class="column">
-	<img src="rush1.jpeg" alt="Italian Trulli" width="300" height="200">
-	<h2><a href="Rushi.html">Rushikesh</a></h2>
-  </div>
-  
-  <div class="column">
-	<img src="rash.jpg" alt="Italian Trulli" width="300" height="200">
-	<h2><a href="rashmi.html">Rashmi</a></h2>
-  </div>
-  
-</div>
+        <div class="column">
+            <img src="rash.jpg" alt="Rashmi-image" width="300" height="200">
+            <h2><a href="rashmi.html">Rashmi Chaudhary</a></h2>
+        </div>
+    </div>
 
 </body>
 </html>

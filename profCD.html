@@ -2,37 +2,54 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="header">
+    <img src="muma.jpeg" alt="muma-image" width="150" height="100">
+    </div>
 
-<div class="header">
- 
-  <img src="muma.jpeg" alt="Italian Trulli" width="300" height="200">
-</div> 
+    <div class="p">
+    <p>Faculty and Assistant information.</p>
+    </div>
 
-<div class="p">
- <p> Faculty and Assistant Information  </p>
-</div> 
+    <div class="topnav">
+    <a href="Main.html">Home</a>
+    <a href="course.html">Course Information</a>
+    <a href="Final1.html">Student eProfile</a>
+    <a href="faculty.html">Faculty eProfile</a>
+    <a href="https://github.com/rmaheshwari12/Assignment_LookAndFeel">GitHub</a>
+    <a href="course.html">About Project</a>
+    </div>
 
+    <h2>Prof. Clinton Daniel</h2>
+    <img src="clinton.jpeg" alt="ProfCD-image" width="200" height="200">
+    <p>cedanie2@usf.edu <p>
+    <p> Room: CIS 2008 <p>
+    <p> Phone: (813) 974-5524) <p>
 
-<div class="topnav">
-<a href="course.html">Course Information</a>
-  <a href="Final1.html">Student information</a>
-  <a href="faculty.html">Faculty information</a>
-  <a href="#">GitHub</a>
-  
-</div>
+        Clinton Daniel is an instructor in the ISDS Department, teaching courses in business intelligence, business data communications, business application development and systems analysis and design. Additionally, Daniel teaches special topic boot camps such as SharePoint, "big data," dashboard development, and electronic health record systems.
 
+        Before joining the USF faculty in 2014, Daniel worked in several information technology roles for the United States Department of Veterans Affairs, including managing a data warehouse for seven VA medical centers and developing business intelligence solutions for the VA and its customers. He had a prior career in physical therapy, both in private practice and in the U.S. Army as a combat medic and physical therapy specialist. He is a partner with SunCoast Technology Consulting.
 
-<h2>Prof. Clinton Daniel</h2>
-<img src="clinton.jpeg" alt="Italian Trulli" width="200" height="200">
-<p>cedanie2@usf.edu <p>
-<p> Room: CIS 2008 <p>
-<p> Phone: (813) 974-5524) <p>
-
-Clinton Daniel is an instructor in the ISDS Department, teaching courses in business intelligence, business data communications, business application development and systems analysis and design. Additionally, Daniel teaches special topic boot camps such as SharePoint, "big data," dashboard development, and electronic health record systems.
-
-Before joining the USF faculty in 2014, Daniel worked in several information technology roles for the United States Department of Veterans Affairs, including managing a data warehouse for seven VA medical centers and developing business intelligence solutions for the VA and its customers. He had a prior career in physical therapy, both in private practice and in the U.S. Army as a combat medic and physical therapy specialist. He is a partner with SunCoast Technology Consulting.
-
-Daniel earned a Master of Science in Management Information Systems from USF and a bachelor's degree from St. Leo University.
+        Daniel earned a Master of Science in Management Information Systems from USF and a bachelor's degree from St. Leo University.
+</body>
+</html>

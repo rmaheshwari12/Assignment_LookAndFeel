@@ -2,52 +2,72 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="header">
- 
-  <img src="muma.jpeg" alt="Italian Trulli" width="300" height="200">
-</div> 
+    <div class="header">
+        <img src="muma.jpeg" alt="muma-image" width="150" height="100">
+    </div>
 
-<div class="p">
- <p>ISM 6225 - Distributed Information Systems</p>
-</div> 
+    <div class="p">
+        <p>Resize the browser window to see the responsive effect.</p>
+    </div>
 
+    <div class="topnav">
+        <a href="Main.html">Home</a>
+        <a href="course.html">Course Information</a>
+        <a href="Final1.html">Student eProfile</a>
+        <a href="faculty.html">Faculty eProfile</a>
+        <a href="https://github.com/rmaheshwari12/Assignment_LookAndFeel">GitHub</a>
+        <a href="course.html">About Project</a>
+    </div>
 
-<div class="topnav">
-<a href="course.html">Course Information</a>
-  <a href="Final1.html">Student information</a>
-  <a href="faculty.html">Faculty information</a>
-  <a href="#">GitHub</a>
-  
-</div>
+    <h2>Distributed Information System</h2>
 
+    <h3>Course Objectives</h3>
+    <p>
+        The goal of the course is to teach students full stack development using modern frameworks and understand how the various components
+        of these applications communicate with each other. Students will develop familiarity with
+        using contemporary development tools and deploying full stack applications to the cloud.
+        Given the business analytics focus of the program, projects and exercises will focus on helping
+        students gain familiarity with using data collections and APIs.Every graduate course in every business
+        school has one primary motivation: why should anyone follow you? The projects and exercises in the class are
+        therefore designed to help students develop confidence in their own technical and leadership capabilities so they can
+        inspire confidence in team members and clients about their ability to develop technology solutions to address business problems.
+    </p>
 
-<h2>Distributed Information System</h2>
+        <h3>Learning Outcomes </h3>
+        <ol>
+            <li>Reinforce competence with computer programming</li>
+            <li>Reinforce competence with object-oriented programming </li>
+            <li>Learn how to use the MVC framework for full stack web site development </li>
+            <li>Understand and use html and css for web user interfaces</li>
+            <li>Understand and use Java script on web pages for client side interaction</li>
+            <li>Learn how to use data collections</li>
+            <li>Use object-relational mapping to connect web applications to relational data stores</li>
+            <li>Deploy web sites to the cloud</li>
+            <li>Understand the OSI model used application components to access remote resources</li>
+        </ol>
+        <a href="http://www.ismlab.usf.edu/dis/">For more information please click here</a>
 
-
-<h3>Course Objectives</h3>
-<p>The goal of the course is to teach students full stack development using modern frameworks and understand how the various components 
-of these applications communicate with each other. Students will develop familiarity with 
-using contemporary development tools and deploying full stack applications to the cloud. 
-Given the business analytics focus of the program, projects and exercises will focus on helping 
-students gain familiarity with using data collections and APIs.Every graduate course in every business
- school has one primary motivation: why should anyone follow you? The projects and exercises in the class are
- therefore designed to help students develop confidence in their own technical and leadership capabilities so they can 
- inspire confidence in team members and clients about their ability to develop technology solutions to address business problems.<p>
- 
-<h3>Learning Outcomes </h3>
-
- <li> Reinforce competence with computer programming2.   </li>
- <li> Reinforce competence with object-oriented programming3. </li>   
- <li> Learn how to use the MVC framework for full stack web site development4.  </li>
- <li> Understand and use html and css for web user interfaces5.    </li>
-  <li>Understand and use Java script on web pages for client side interaction6. </li> 
-  <li>Learn how to use data collections7.   <p>
-  <li>Use object-relational mapping to connect web applications to relational data stores8. </li> 
-  <li>Deploy web sites to the cloud9. <p>
-  <li>Understand the OSI model used application components to access remote resources</li>
-<a href="http://www.ismlab.usf.edu/dis/">For more information please click here</a>
+</body>
+</html>
